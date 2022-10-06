@@ -520,10 +520,13 @@ video {
   top: 1.25rem;
 }
 
+<<<<<<< HEAD
 .bottom-10 {
   bottom: 2.5rem;
 }
 
+=======
+>>>>>>> 4c42338c7293c79675027f5395fef3a24c561daa
 .z-10 {
   z-index: 10;
 }
@@ -638,10 +641,13 @@ video {
 
 .grid-rows-4 {
   grid-template-rows: repeat(4, minmax(0, 1fr));
+<<<<<<< HEAD
 }
 
 .grid-rows-3 {
   grid-template-rows: repeat(3, minmax(0, 1fr));
+=======
+>>>>>>> 4c42338c7293c79675027f5395fef3a24c561daa
 }
 
 .flex-row {
@@ -688,14 +694,17 @@ video {
   border-width: 2px;
 }
 
-.border-4 {
-  border-width: 4px;
-}
-
 .border-solid {
   border-style: solid;
 }
 
+<<<<<<< HEAD
+.border-solid {
+  border-style: solid;
+}
+
+=======
+>>>>>>> 4c42338c7293c79675027f5395fef3a24c561daa
 .border-red-500 {
   --tw-border-opacity: 1;
   border-color: rgb(239 68 68 / var(--tw-border-opacity));
