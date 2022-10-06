@@ -5,9 +5,20 @@ module.exports = {
     extend: {
       textColor: (theme) => ({
         ...theme("colors"),
-        primary: "#4eacef",
-        secondary: "#8FA206",
-        terceary: "#61AEC9",
+        primary: "rgb(112, 140, 145)",
+        secondary: "rgb(5, 71, 82)",
+        terceary: "rgb(0, 175, 245)",
+        cuarto: "#788e95",
+      }),
+
+      backgroundColor: (theme) => ({
+        ...theme("colors"),
+        primary: "rgb(112, 140, 145)",
+        secondary: "rgb(5, 71, 82)",
+        terceary: "rgb(0, 175, 245)",
+        cuarto: "#1d4651",
+        quinto: "#ededed",
+        sexto: "#dddddd",
       }),
     },
   },
