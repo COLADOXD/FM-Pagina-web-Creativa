@@ -13,9 +13,10 @@
       sizes="16x16"
       href="https://cdn.blablacar.com/kairos/assets/images/favicon-16x16-28143ec5ff0376a80bec..png"
     />
+    <link rel="stylesheet" href="../public/css/style.css" />
   </head>
   <body>
-    <nav class="p-5 justify-between flex flex-row">
+    <nav class="p-3 justify-between flex flex-row">
       <div class="flex justify-center items-center">
         <img
           class="rounded-full h-7"
@@ -100,26 +101,14 @@
       </div>
     </nav>
     <header>
-      <section class="flex flex-col">
-        <img
-          class="absolute top-20 z-10"
-          srcset="
-            https://cdn.blablacar.com/kairos/assets/images/carpool_only_small-09eb14eafab9352951e1..svg 640w,
-            https://cdn.blablacar.com/kairos/assets/images/carpool_only_large-1fb250954893109fa160..svg 828w
-          "
-          src="https://cdn.blablacar.com/kairos/assets/images/carpool_only_small-09eb14eafab9352951e1..svg"
-          alt=""
-          height="100%"
-          width="100%"
-          loading="eager"
-          decoding="async"
-          fetchpriority="high"
-        />
-        <div class="relative z-20 top-5 text-white text-center mx-8">
-          <p class="text-2xl font-bold">Miles de viajes a muy buen precio</p>
+      <section class="flex flex-col" id="imagen-fondo">
+        <div class="relative z-20 top-10 text-black text-center mx-8">
+          <p class="text-2xl font-bold text-center">
+            Miles de viajes a muy buen precio
+          </p>
         </div>
         <div
-          class="w-auto h-auto border-red-500 border-solid shadow-lg relative z-30 bg-white grid grid-rows-4 pt-4 px-6 rounded-2xl mt-20"
+          class="w-auto h-auto border-red-500 border-solid shadow-lg relative z-30 bg-white pt-4 mx-4 rounded-2xl mt-20"
         >
           <div class="flex py-2">
             <svg
@@ -139,6 +128,7 @@
             </svg>
             <p class="ml-2">Origen</p>
           </div>
+          <div class="h-px w-auto bg-quinto"></div>
           <div class="flex py-2">
             <svg
               viewBox="0 0 24 24"
@@ -157,6 +147,7 @@
             </svg>
             <p class="ml-2">Destino</p>
           </div>
+          <div class="h-px w-auto bg-quinto"></div>
           <div class="flex justify-between py-2">
             <div class="flex">
               <svg
@@ -224,6 +215,7 @@
               </svg>
               <p>Hoy</p>
             </div>
+            <div class="h-auto w-px bg-quinto"></div>
             <div class="flex">
               <svg
                 viewBox="0 0 19 20"
@@ -243,13 +235,13 @@
               <p>1</p>
             </div>
           </div>
-          <div class="flex justify-center items-center">
+          <div class="flex justify-center items-center bg-terceary rounded-b-l">
             <p>buscar</p>
           </div>
         </div>
       </section>
-      <article class="m-5">
-        <div class="my-8">
+      <article class="m-5 md:flex">
+        <div class="my-8 md:flex-1 md:mr-8">
           <svg
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -289,7 +281,7 @@
             Vayas donde vayas, encuentra tu viaje ideal a un precio muy bajo.
           </p>
         </div>
-        <div class="my-8">
+        <div class="my-8 md:flex-1 md:mr-8">
           <svg
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -326,7 +318,7 @@
             próximo viaje con total seguridad y tranquilidad.
           </p>
         </div>
-        <div class="my-8">
+        <div class="my-8 md:flex-1 md:mr-8">
           <svg
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -354,9 +346,9 @@
         </div>
       </article>
       <section
-        class="bg-secondary flex flex-col justify-center items-center p-5 text-white"
+        class="bg-secondary flex flex-col justify-center items-center p-5 text-white md:flex-row"
       >
-        <div>
+        <div class="flex md:flex-1 md:items-start md:justify-start">
           <img
             src="https://cdn.blablacar.com/kairos/assets/images/phishing-b200bc23cc51c0950d45..svg"
             alt=""
@@ -364,28 +356,32 @@
             height="263px"
           />
         </div>
-        <div class="my-7">
-          <h4 class="text-center font-bold text-3xl">
-            Ayúdanos a protegerte frente a las estafas
-          </h4>
-        </div>
-        <div>
-          <p class="text-center">
-            En BlaBlaCar, trabajamos constantemente para que nuestra plataforma
-            sea lo más segura posible. Sin embargo, no podemos evitar al 100 %
-            la posibilidad de que se produzca una estafa. Por eso, queremos que
-            sepas cómo evitarlas y denunciarlas. Sigue nuestros consejos para
-            saber cómo garantizar tu seguridad.
-          </p>
-        </div>
-        <div class="bg-terceary mt-5 p-4 rounded-full">
-          <p>Mas Informacion</p>
-        </div>
+        <article
+          class="flex justify-center items-center flex-col md:flex-1 md:text-start"
+        >
+          <div class="my-7">
+            <h4 class="text-center font-bold text-3xl md:text-start">
+              Ayúdanos a protegerte frente a las estafas
+            </h4>
+          </div>
+          <div>
+            <p class="text-center md:text-start">
+              En BlaBlaCar, trabajamos constantemente para que nuestra
+              plataforma sea lo más segura posible. Sin embargo, no podemos
+              evitar al 100 % la posibilidad de que se produzca una estafa. Por
+              eso, queremos que sepas cómo evitarlas y denunciarlas. Sigue
+              nuestros consejos para saber cómo garantizar tu seguridad.
+            </p>
+          </div>
+          <div class="bg-terceary mt-5 p-4 rounded-full md:justify-start">
+            <p>Mas Informacion</p>
+          </div>
+        </article>
       </section>
       <section
-        class="flex flex-col p-5 text-center justify-center items-center"
+        class="flex flex-col p-5 text-center justify-center items-center md:flex-row"
       >
-        <div>
+        <div class="md:flex-1">
           <img
             src="https://cdn.blablacar.com/kairos/assets/images/driver_masks-8bad4a96a1d6cbab177e..svg"
             alt=""
@@ -395,7 +391,7 @@
             decoding="async"
           />
         </div>
-        <div>
+        <div class="md:flex-1">
           <h4 class="font-bold text-3xl my-4">Ahorra mientras conduces</h4>
           <p class="text-primary">
             Publica tu próximo viaje de ida y vuelta en BlaBlaCar y llévate, de
@@ -405,20 +401,20 @@
           <p class="text-primary mt-4">
             *Cantidad media recibida por los conductores en 2019.
           </p>
-        </div>
-        <div class="my-4 bg-terceary p-4 rounded-full text-white">
-          <p>Publica tu viaje</p>
+          <div class="my-4 bg-terceary p-4 rounded-full text-white">
+            <p>Publica tu viaje</p>
+          </div>
         </div>
       </section>
-      <section class="bg-secondary flex flex-col p-5">
+      <section class="bg-secondary flex flex-col">
         <div>
-          <h3 class="font-bold text-3xl my-4 text-white">
+          <h3 class="font-bold text-3xl my-2 text-white">
             ¿Cuáles son tus próximos viajes?
           </h3>
         </div>
-        <article class="flex flex-col">
+        <article class="flex flex-col md:flex-row">
           <div
-            class="flex flex-row bg-white h-auto w-auto rounded-xl p-5 my-1 justify-between items-center"
+            class="flex flex-row bg-white h-auto w-auto rounded-xl p-5 my-1 justify-between items-center md:flex-1"
           >
             <div class="flex flex-col">
               <div class="flex">
@@ -470,7 +466,7 @@
             </div>
           </div>
           <div
-            class="flex flex-row bg-white h-auto w-auto rounded-xl p-5 my-1 justify-between items-center"
+            class="flex flex-row bg-white h-auto w-auto rounded-xl p-5 my-1 justify-between items-center md:flex-1 md:mx-4"
           >
             <div class="flex flex-col">
               <div class="flex">
@@ -522,7 +518,7 @@
             </div>
           </div>
           <div
-            class="flex flex-row bg-white h-auto w-auto rounded-xl p-5 mt-1 justify-between items-center"
+            class="flex flex-row bg-white h-auto w-auto rounded-xl p-5 mt-1 justify-between items-center md:flex-1"
           >
             <div class="flex flex-col">
               <div class="flex">
@@ -573,23 +569,19 @@
               </svg>
             </div>
           </div>
-          <div class="flex justify-end">
-            <p class="text-terceary text-xs">Ver los viajes más frecuentes</p>
-          </div>
         </article>
+        <div class="flex justify-end text-sm mb-5">
+          <p class="text-terceary text-xs">Ver los viajes más frecuentes</p>
+        </div>
       </section>
-      <section class="mx-5 py-5 text-center">
-        <div>
+      <section class="flex flex-col py-5 text-center md:flex-row">
+        <div class="w-full h-auto md:flex-1 md:px-3">
           <img
             src="https://cdn.blablacar.com/kairos/assets/images/bus_blablacar_masks-7e3ca89538aa220eb257..svg"
             alt=""
-            height="337px"
-            width="484px"
-            loading="eager"
-            decoding="async"
           />
         </div>
-        <div class="mx-5">
+        <div class="mx-5 md:flex-1">
           <h4 class="font-bold text-3xl my-4">
             Descubre nuevas ciudades con los precios increíbles de los autobuses
             de BlaBlaCar.
@@ -602,20 +594,20 @@
             importa el tipo de viaje, siempre será sencillo y económico con los
             buses BlaBlaCar.
           </p>
-        </div>
-        <div class="p-2 bg-terceary rounded-md text-white mt-4">
-          Descubre nuestra oferta de buses BlaBlaCar
+          <div class="p-2 bg-terceary rounded-md text-white mt-4">
+            Descubre nuestra oferta de buses BlaBlaCar
+          </div>
         </div>
       </section>
-      <section class="bg-secondary flex flex-col p-5">
+      <section class="bg-secondary flex flex-col px-6">
         <div>
           <h3 class="font-bold text-3xl my-4 text-white">
             Nuestros principales destinos de autobuses
           </h3>
         </div>
-        <article class="flex flex-col">
+        <article class="flex flex-col md:flex-row">
           <div
-            class="flex flex-row bg-white h-auto w-auto rounded-xl p-5 my-1 justify-between items-center"
+            class="flex flex-row bg-white h-auto w-auto rounded-xl p-5 my-1 justify-between items-center md:flex-1"
           >
             <div class="flex flex-col">
               <div class="flex">
@@ -666,7 +658,7 @@
             </div>
           </div>
           <div
-            class="flex flex-row bg-white h-auto w-auto rounded-xl p-5 my-1 justify-between items-center"
+            class="flex flex-row bg-white h-auto w-auto rounded-xl p-5 my-1 justify-between items-center md:flex-1 md:mx-4"
           >
             <div class="flex flex-col">
               <div class="flex">
@@ -717,7 +709,7 @@
             </div>
           </div>
           <div
-            class="flex flex-row bg-white h-auto w-auto rounded-xl p-5 mt-1 justify-between items-center"
+            class="flex flex-row bg-white h-auto w-auto rounded-xl p-5 mt-1 justify-between items-center md:flex-1"
           >
             <div class="flex flex-col">
               <div class="flex">
@@ -767,10 +759,10 @@
               </svg>
             </div>
           </div>
-          <div class="flex justify-end">
-            <p class="text-terceary text-sm">Ver mas</p>
-          </div>
         </article>
+        <div class="flex justify-end">
+          <p class="text-terceary text-sm mb-5">Ver mas</p>
+        </div>
       </section>
       <section
         class="flex flex-col p-5 text-center justify-center items-center"

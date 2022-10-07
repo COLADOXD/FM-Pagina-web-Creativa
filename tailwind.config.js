@@ -19,6 +19,7 @@ module.exports = {
         cuarto: "#1d4651",
         quinto: "#ededed",
         sexto: "#dddddd",
+        img: "url(https://cdn.blablacar.com/kairos/assets/images/carpool_only_small-09eb14eafab9352951e1..svg)",
       }),
     },
   },
