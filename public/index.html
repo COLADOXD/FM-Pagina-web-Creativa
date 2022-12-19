@@ -1,143 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-=======
   <head>
-<<<<<<< HEAD
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-=======
->>>>>>> dca09a3a987602d3660b8a40237b741e2dc5aa87
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
->>>>>>> 6a2ef2cbacfe5996b54439c1f219a581070901ef
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Article preview component</title>
-
-<<<<<<< HEAD
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-=======
-<<<<<<< HEAD
-    <title>Frontend Mentor | Interactive rating component</title>
-
-=======
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <title>Viaja de forma económica y sostenible.</title>
+    <title>Viaja de forma económica y sostenible. | BlaBlaCar</title>
     <link rel="stylesheet" href="../public/css/tailwind.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
-      rel="stylesheet"
+      data-rh="true"
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://cdn.blablacar.com/kairos/assets/images/favicon-16x16-28143ec5ff0376a80bec..png"
     />
->>>>>>> 6a2ef2cbacfe5996b54439c1f219a581070901ef
-
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
-
-<<<<<<< HEAD
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
-
-  Michelle Appleton
-  28 Jun 2020
-
-  Share
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
-</html>
-=======
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
->>>>>>> dca09a3a987602d3660b8a40237b741e2dc5aa87
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
-<<<<<<< HEAD
-    <link rel="stylesheet" href="../public/css/tailwind.css" />
+    <link rel="stylesheet" href="../public/css/style.css" />
   </head>
-  <body class="bg-black flex items-center justify-center h-screen">
-    <section class="bg-cuarto">
-      <div><img src="../images/icon-star.svg" alt="" /></div>
-      <div class="text-white">How did we do?</div>
-      <div>
-        Please let us know how we did with your support request. All feedback is
-        appreciated to help us improve our offering!
-      </div>
-      <div class="flex flex-row bg-terceary">
-        <div class="m-1 rounded-full">1</div>
-        <div class="m-1 rounded-full">2</div>
-        <div class="m-1 rounded-full">3</div>
-        <div class="m-1 rounded-full">4</div>
-        <div class="m-1 rounded-full">5</div>
-      </div>
-      <div></div>
-    </section>
-    <!-- Rating state start -->
-
-    Submit
-
-    <!-- Rating state end -->
-
-    <!-- Thank you state start -->
-
-    You selected
-    <!-- Add rating here -->
-    out of 5 Thank you! We appreciate you taking the time to give a rating. If
-    you ever need more support, don’t hesitate to get in touch!
-
-    <!-- Thank you state end -->
-=======
-    <link rel="stylesheet" href="./css/tailwind.css" />
-  </head>
-  <body class="bg-primary pt-12 pb-20 px-8 md:p-20 md:px-44 md:bg-secondary">
-    <section class="bg-white rounded-3xl mt-20 md:flex md:flex-row">
-      <article class="px-11 -mb-14 md:flex-1">
+  <body>
+    <nav class="p-3 justify-between flex flex-row">
+      <div class="flex justify-center items-center">
         <img
-          class="relative bottom-24 shadow-inner md:right-32 md:top-16"
-          src="../images/illustration-woman-online-mobile.svg"
+          class="rounded-full h-7"
+          src="https://cdn.blablacar.com/kairos/assets/images/default-m-818bf2b20d4b06a052dd..svg"
           alt=""
+          data-testid="single-logo"
         />
-      </article>
-      <article class="px-8 md:flex-1 md:py-16 md:mr-9">
-        <h1 class="text-center font-bold text-4xl md:text-left md:mb-16">
-          FAQ
-        </h1>
-        <div class="pb-5">
-          <div class="flex items-center justify-between">
-            <div id="pregunta1" class="cursor-pointer">
-              How many team members can I invite?
+        <svg
+          class="ml-2"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+          class="kirk-icon sc-ksBlkl Jvfzv"
+          width="24"
+          height="24"
+          aria-hidden="true"
+        >
+          <polyline
+            fill="none"
+            stroke="#708C91"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-miterlimit="10"
+            points="9 18 15 12 9 6"
+            transform="rotate(90 12 12)"
+          ></polyline>
+        </svg>
+      </div>
+      <div class="flex flex-row">
+        <svg viewBox="0 0 1199.96 1014.39" width="33">
+          <path
+            fill="#054752"
+            d="M1195.16 619.8c-31.2-184-205.8-308-390-276.8l54.4-308.3L662.96 0c-17 37-91 206-127 397 73.3 50 127 128.5 143 223 17.2 100.7-12.3 198.5-72.6 271.7 14.8 18 31.7 34.7 51 49.7 77 60.3 170.2 83.8 261 68.4 184-31.3 308-206 276.8-390z"
+          ></path>
+          <path
+            fill="#2dbeff"
+            d="M531.96 418l4-21c-69.8-47.6-157.2-69.3-247-54l54.4-308.4L146.66 0c-17.5 38.4-96.5 218.6-130.7 418-27.5 159.8-26.2 332 58.5 453 18.2 26 40.2 49.7 66.7 70.4 77 60.3 170.2 83.8 261 68.4 83.4-14 154.4-57.7 204.3-118.2-5.5-6.7-10.8-13.6-15.7-20.7-85-121.2-86-293.3-58.7-453z"
+          ></path>
+          <path
+            fill="#9ef769"
+            d="M678.96 619.8c-16-94.4-69.7-173-143-223l-4 21c-27.4 160-26 332 58.6 453 5 7.2 10.2 14 15.7 20.8 60.3-73.2 89.8-171 72.7-271.8z"
+          ></path>
+        </svg>
+      </div>
+      <div class="flex justify-center items-center">
+        <svg
+          class="mr-6"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+          class="kirk-icon sc-ksBlkl eBMhlT"
+          width="24"
+          height="24"
+          aria-hidden="true"
+        >
+          <g
+            fill="none"
+            stroke="#00AFF5"
+            stroke-width="1"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-miterlimit="10"
+          >
+            <line x1="22" y1="22" x2="16.4" y2="16.4"></line>
+            <circle cx="10" cy="10" r="9"></circle>
+          </g>
+        </svg>
+        <svg
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+          class="kirk-icon sc-ksBlkl eBMhlT"
+          width="24"
+          height="24"
+          aria-hidden="true"
+        >
+          <path
+            stroke-width="0"
+            fill="#00AFF5"
+            fill-rule="evenodd"
+            d="M1.14 11.5a10.36 10.36 0 1120.72 0 10.36 10.36 0 01-20.72 0zM11.5 0a11.5 11.5 0 100 23 11.5 11.5 0 000-23zm.57 6.53a.57.57 0 00-1.14 0v4.4h-4.4a.57.57 0 100 1.14h4.4v4.4a.57.57 0 101.14 0v-4.4h4.4a.57.57 0 000-1.14h-4.4z"
+          ></path>
+        </svg>
+      </div>
+    </nav>
+    <header>
+      <section class="flex flex-col" id="imagen-fondo">
+        <div class="relative z-20 top-10 text-black text-center mx-8">
+          <p class="text-2xl font-bold text-center">
+            Miles de viajes a muy buen precio
+          </p>
+        </div>
+        <div
+          class="w-auto h-auto border-red-500 border-solid shadow-lg relative z-30 bg-white pt-4 mx-4 rounded-2xl mt-20"
+        >
+          <div class="flex py-2">
+            <svg
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              class="kirk-icon sc-ksBlkl Jvfzv"
+              width="24"
+              height="24"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12ZM12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17Z"
+                fill="#708C91"
+              ></path>
+            </svg>
+            <p class="ml-2">Origen</p>
+          </div>
+          <div class="h-px w-auto bg-quinto"></div>
+          <div class="flex py-2">
+            <svg
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              class="kirk-icon sc-ksBlkl Jvfzv"
+              width="24"
+              height="24"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12ZM12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17Z"
+                fill="#708C91"
+              ></path>
+            </svg>
+            <p class="ml-2">Destino</p>
+          </div>
+          <div class="h-px w-auto bg-quinto"></div>
+          <div class="flex justify-between py-2">
+            <div class="flex">
+              <svg
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                class="kirk-icon sc-ksBlkl Jvfzv"
+                width="24"
+                height="24"
+                aria-hidden="true"
+              >
+                <g fill="none" fill-rule="evenodd">
+                  <rect
+                    x="3.5"
+                    y="3.5"
+                    width="17"
+                    height="17"
+                    rx="3.5"
+                    stroke="#708C91"
+                  ></rect>
+                  <path
+                    d="M3.5 7C3.5 5.067 5.067 3.5 7 3.5H17C18.933 3.5 20.5 5.067 20.5 7V8.5H3.5V7Z"
+                    stroke="#708C91"
+                  ></path>
+                  <rect
+                    x="6"
+                    y="11"
+                    width="2"
+                    height="2"
+                    rx="1"
+                    fill="#708C91"
+                  ></rect>
+                  <rect
+                    x="6"
+                    y="15"
+                    width="2"
+                    height="2"
+                    rx="1"
+                    fill="#708C91"
+                  ></rect>
+                  <rect
+                    x="11"
+                    y="11"
+                    width="2"
+                    height="2"
+                    rx="1"
+                    fill="#708C91"
+                  ></rect>
+                  <rect
+                    x="11"
+                    y="15"
+                    width="2"
+                    height="2"
+                    rx="1"
+                    fill="#708C91"
+                  ></rect>
+                  <rect
+                    x="16"
+                    y="11"
+                    width="2"
+                    height="2"
+                    rx="1"
+                    fill="#708C91"
+                  ></rect>
+                </g>
+              </svg>
+              <p>Hoy</p>
             </div>
-            <img id="svg1" src="../images/icon-arrow-down.svg" alt="" />
+            <div class="h-auto w-px bg-quinto"></div>
+            <div class="flex">
+              <svg
+                viewBox="0 0 19 20"
+                xmlns="http://www.w3.org/2000/svg"
+                class="kirk-icon sc-ksBlkl Jvfzv"
+                width="18"
+                height="18"
+                aria-hidden="true"
+              >
+                <g fill="none">
+                  <path
+                    d="M9.583 9.167a3.75 3.75 0 0 0 3.75-3.75v-.834a3.75 3.75 0 0 0-7.5 0v.834a3.75 3.75 0 0 0 3.75 3.75zm0 .833A4.584 4.584 0 0 1 5 5.417v-.834a4.584 4.584 0 0 1 9.167 0v.834A4.584 4.584 0 0 1 9.583 10zM18.333 17.007v1.743c0 .23-.186.417-.416.417H1.25a.417.417 0 0 1-.417-.417v-1.743a3.742 3.742 0 0 1 2.752-3.616c2.033-.554 4.08-.891 5.998-.891 1.92 0 3.966.337 5.998.891a3.742 3.742 0 0 1 2.752 3.616zm-.833 0a2.908 2.908 0 0 0-2.138-2.812c-1.967-.537-3.944-.862-5.779-.862-1.834 0-3.811.325-5.779.862a2.908 2.908 0 0 0-2.137 2.812v1.326H17.5v-1.326z"
+                    fill="#708C91"
+                  ></path>
+                </g>
+              </svg>
+              <p>1</p>
+            </div>
+          </div>
+          <div class="flex justify-center items-center bg-terceary rounded-b-l">
+            <p>buscar</p>
+          </div>
+        </div>
+      </section>
+      <article class="m-5 md:flex">
+        <div class="my-8 md:flex-1 md:mr-8">
+          <svg
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            class="kirk-icon sc-ksBlkl Jvfzv"
+            width="40"
+            height="40"
+            aria-hidden="true"
+          >
+            <g
+              fill="none"
+              stroke="#708C91"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M2.43 5.04v3.48c0 1.44 2.34 2.61 5.22 2.61s5.22-1.17 5.22-2.6V5.03"
+              ></path>
+              <path
+                d="M2.43 8.52V12c0 1.44 2.34 2.6 5.22 2.6a8.7 8.7 0 0 0 3.48-.66"
+              ></path>
+              <path
+                d="M2.43 12v3.48c0 1.44 2.34 2.6 5.22 2.6a8.7 8.7 0 0 0 3.48-.66"
+              ></path>
+              <ellipse cx="7.65" cy="5.04" rx="5.22" ry="2.61"></ellipse>
+              <path
+                d="M11.13 12v3.48c0 1.44 2.34 2.6 5.22 2.6s5.22-1.16 5.22-2.6V12"
+              ></path>
+              <path
+                d="M11.13 15.48v3.48c0 1.44 2.34 2.6 5.22 2.6s5.22-1.16 5.22-2.6v-3.48"
+              ></path>
+              <ellipse cx="16.35" cy="12" rx="5.22" ry="2.61"></ellipse>
+            </g>
+          </svg>
+          <h3 class="font-bold my-2">Miles de viajes baratos</h3>
+          <p class="text-primary">
+            Vayas donde vayas, encuentra tu viaje ideal a un precio muy bajo.
+          </p>
+        </div>
+        <div class="my-8 md:flex-1 md:mr-8">
+          <svg
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            class="kirk-icon sc-ksBlkl Jvfzv"
+            width="40"
+            height="40"
+            aria-hidden="true"
+          >
+            <g>
+              <path
+                d="M19.33,8.5c0-0.276-0.225-0.5-0.5-0.5h-3.855c-0.275,0-0.5,0.224-0.5,0.5s0.225,0.5,0.5,0.5h3.855 C19.105,9,19.33,8.776,19.33,8.5z"
+              ></path>
+              <path
+                d="M9.906,8.492V8.133c0-0.994-0.798-1.799-1.781-1.799S6.344,7.139,6.344,8.133v0.359 c0,0.994,0.798,1.799,1.781,1.799S9.906,9.486,9.906,8.492z"
+                fill="#708C91"
+              ></path>
+              <path
+                d="M4.167,13.422v0.528c0,0.165,0.134,0.3,0.3,0.3h7.316c0.166,0,0.3-0.135,0.3-0.3v-0.528 c0-0.713-0.474-1.339-1.162-1.526c-0.75-0.204-1.773-0.417-2.797-0.417s-2.047,0.213-2.797,0.417 C4.641,12.083,4.167,12.709,4.167,13.422z"
+                fill="#708C91"
+              ></path>
+              <path
+                d="M12,18H1.982V1h2.904C5.11,2.139,6.086,3,7.265,3c1.178,0,2.154-0.861,2.379-2h4.88 c0.225,1.139,1.201,2,2.379,2s2.154-0.861,2.379-2h2.903v9c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5V0.5 c0-0.276-0.224-0.5-0.5-0.5H18.83c-0.276,0-0.5,0.224-0.5,0.5c0,0.833-0.643,1.5-1.428,1.5s-1.428-0.667-1.428-1.5 c0-0.276-0.224-0.5-0.5-0.5H9.192c-0.276,0-0.5,0.224-0.5,0.5c0,0.833-0.643,1.5-1.427,1.5S5.837,1.333,5.837,0.5 c0-0.276-0.224-0.5-0.5-0.5H1.482c-0.276,0-0.5,0.224-0.5,0.5v18c0,0.276,0.224,0.5,0.5,0.5H12c0.276,0,0.5-0.224,0.5-0.5 S12.276,18,12,18z"
+              ></path>
+              <path
+                d="M25.354,13.646c-0.195-0.195-0.512-0.195-0.707,0L19,19.293l-2.646-2.646c-0.195-0.195-0.512-0.195-0.707,0 s-0.195,0.512,0,0.707l3,3c0.195,0.195,0.512,0.195,0.707,0l6-6C25.549,14.158,25.549,13.842,25.354,13.646z"
+              ></path>
+            </g>
+          </svg>
+          <h3 class="font-bold my-2">Viaja seguro y tranquilo</h3>
+          <p class="text-primary">
+            Para nosotros es muy importante conocer a nuestros usuarios. Por
+            eso, examinamos atentamente las opiniones y los perfiles de nuestros
+            usuarios para que sepas con quién vas a viajar. Puedes reservar tu
+            próximo viaje con total seguridad y tranquilidad.
+          </p>
+        </div>
+        <div class="my-8 md:flex-1 md:mr-8">
+          <svg
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            class="kirk-icon sc-ksBlkl Jvfzv"
+            width="40"
+            height="40"
+            aria-hidden="true"
+          >
+            <path
+              fill="none"
+              stroke="#708C91"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-miterlimit="10"
+              d="M15.5 1.5h-7l-3 11h6l-2 8 10-12h-6z"
+            ></path>
+          </svg>
+          <h3 class="font-bold my-2">¡Busca, elige y a viajar!</h3>
+          <p class="text-primary">
+            ¡Reservar un viaje es más fácil que nunca! Gracias a nuestra
+            sencilla aplicación y a su potente tecnología, podrás reservar un
+            viaje cerca de ti en minutos.
+          </p>
+        </div>
+      </article>
+      <section
+        class="bg-secondary flex flex-col justify-center items-center p-5 text-white md:flex-row"
+      >
+        <div class="flex md:flex-1 md:items-start md:justify-start">
+          <img
+            src="https://cdn.blablacar.com/kairos/assets/images/phishing-b200bc23cc51c0950d45..svg"
+            alt=""
+            width="484px"
+            height="263px"
+          />
+        </div>
+        <article
+          class="flex justify-center items-center flex-col md:flex-1 md:text-start"
+        >
+          <div class="my-7">
+            <h4 class="text-center font-bold text-3xl md:text-start">
+              Ayúdanos a protegerte frente a las estafas
+            </h4>
           </div>
           <div>
             <p class="text-center md:text-start">
-              trabajamos constantemente para que nuestra
+              En BlaBlaCar, trabajamos constantemente para que nuestra
               plataforma sea lo más segura posible. Sin embargo, no podemos
               evitar al 100 % la posibilidad de que se produzca una estafa. Por
               eso, queremos que sepas cómo evitarlas y denunciarlas. Sigue
@@ -165,7 +394,7 @@
         <div class="md:flex-1">
           <h4 class="font-bold text-3xl my-4">Ahorra mientras conduces</h4>
           <p class="text-primary">
-            Publica tu próximo viaje de ida y vuelta y llévate, de
+            Publica tu próximo viaje de ida y vuelta en BlaBlaCar y llévate, de
             media, 60€* de tus pasajeros. Sólo necesitarás un par de minutos
             para publicar tu trayecto. ¿Compartimos viaje?
           </p>
@@ -214,20 +443,131 @@
               </div>
               <p>Valencia</p>
             </div>
-            <img id="svg2" src="../images/icon-arrow-down.svg" alt="" />
-          </div>
-          <div id="texto2" class="hidden">
-            <p class="text-cuarto">
-              No more than 2GB. All files in your account must fit your allotted
-              storage space.
-            </p>
-          </div>
-          <div class="h-px w-auto bg-palo my-5"></div>
-          <div class="flex items-center justify-between">
-            <div id="pregunta3" class="cursor-pointer">
-              How do I reset my password?
+            <div class="flex">
+              21€
+              <svg
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                class="kirk-icon sc-ksBlkl Jvfzv"
+                width="24"
+                height="24"
+                aria-hidden="true"
+              >
+                <polyline
+                  fill="none"
+                  stroke="#708C91"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="10"
+                  points="9 18 15 12 9 6"
+                ></polyline>
+              </svg>
             </div>
-            <img id="svg3" src="../images/icon-arrow-down.svg" alt="" />
+          </div>
+          <div
+            class="flex flex-row bg-white h-auto w-auto rounded-xl p-5 my-1 justify-between items-center md:flex-1 md:mx-4"
+          >
+            <div class="flex flex-col">
+              <div class="flex">
+                <span>Granda</span>
+                <svg
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="kirk-icon sc-ksBlkl Jvfzv sc-bWOGAC eAUAod"
+                  width="24"
+                  height="24"
+                  aria-hidden="true"
+                >
+                  <g
+                    fill="none"
+                    stroke="#708C91"
+                    stroke-width="2"
+                    stroke-miterlimit="10"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                    transform="rotate(180 12 12)"
+                  >
+                    <path d="M9 19l-7-7 7-7"></path>
+                    <path d="M22 12H2"></path>
+                  </g>
+                </svg>
+              </div>
+              <span>Malaga</span>
+            </div>
+            <div class="flex">
+              8€
+              <svg
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                class="kirk-icon sc-ksBlkl Jvfzv"
+                width="24"
+                height="24"
+                aria-hidden="true"
+              >
+                <polyline
+                  fill="none"
+                  stroke="#708C91"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="10"
+                  points="9 18 15 12 9 6"
+                ></polyline>
+              </svg>
+            </div>
+          </div>
+          <div
+            class="flex flex-row bg-white h-auto w-auto rounded-xl p-5 mt-1 justify-between items-center md:flex-1"
+          >
+            <div class="flex flex-col">
+              <div class="flex">
+                <span>Barcelona</span>
+                <svg
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="kirk-icon sc-ksBlkl Jvfzv sc-bWOGAC eAUAod"
+                  width="24"
+                  height="24"
+                  aria-hidden="true"
+                >
+                  <g
+                    fill="none"
+                    stroke="#708C91"
+                    stroke-width="2"
+                    stroke-miterlimit="10"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                    transform="rotate(180 12 12)"
+                  >
+                    <path d="M9 19l-7-7 7-7"></path>
+                    <path d="M22 12H2"></path>
+                  </g>
+                </svg>
+              </div>
+              <span>Valencia</span>
+            </div>
+            <div class="flex">
+              24€
+              <svg
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                class="kirk-icon sc-ksBlkl Jvfzv"
+                width="24"
+                height="24"
+                aria-hidden="true"
+              >
+                <polyline
+                  fill="none"
+                  stroke="#708C91"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="10"
+                  points="9 18 15 12 9 6"
+                ></polyline>
+              </svg>
+            </div>
           </div>
         </article>
         <div class="flex justify-end text-sm mb-5">
@@ -244,7 +584,7 @@
         <div class="mx-5 md:flex-1">
           <h4 class="font-bold text-3xl my-4">
             Descubre nuevas ciudades con los precios increíbles de los autobuses
-            de .
+            de BlaBlaCar.
           </h4>
           <p>
             Para viajar todas las semanas o todos los meses. Para reunirte con
@@ -252,38 +592,188 @@
             nuevo. Con familia numerosa o con un equipaje muy grande. Para
             viajar a París, Amsterdam o cualquier otra ciudad europea. No
             importa el tipo de viaje, siempre será sencillo y económico con los
-            buses .
+            buses BlaBlaCar.
           </p>
           <div class="p-2 bg-terceary rounded-md text-white mt-4">
-            Descubre nuestra oferta de buses 
+            Descubre nuestra oferta de buses BlaBlaCar
           </div>
-          <div class="h-px w-auto bg-palo my-5"></div>
-          <div class="flex items-center justify-between">
-            <div id="pregunta4" class="cursor-pointer">
-              Can I cancel my subscription?
+        </div>
+      </section>
+      <section class="bg-secondary flex flex-col px-6">
+        <div>
+          <h3 class="font-bold text-3xl my-4 text-white">
+            Nuestros principales destinos de autobuses
+          </h3>
+        </div>
+        <article class="flex flex-col md:flex-row">
+          <div
+            class="flex flex-row bg-white h-auto w-auto rounded-xl p-5 my-1 justify-between items-center md:flex-1"
+          >
+            <div class="flex flex-col">
+              <div class="flex">
+                <p>Barcelona</p>
+                <svg
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="kirk-icon sc-ksBlkl Jvfzv sc-bWOGAC eAUAod"
+                  width="24"
+                  height="24"
+                  aria-hidden="true"
+                >
+                  <g
+                    fill="none"
+                    stroke="#708C91"
+                    stroke-width="2"
+                    stroke-miterlimit="10"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                    transform="rotate(180 12 12)"
+                  >
+                    <path d="M9 19l-7-7 7-7"></path>
+                    <path d="M22 12H2"></path>
+                  </g>
+                </svg>
+              </div>
+              <p>Perpiñán</p>
             </div>
-            <img id="svg4" src="../images/icon-arrow-down.svg" alt="" />
-          </div>
-          <div id="texto4" class="hidden">
-            <p class="text-cuarto">
-              Yes! Send us a message and well process your request no questions
-              asked.
-            </p>
-          </div>
-          <div class="h-px w-auto bg-palo my-5"></div>
-          <div class="flex items-center justify-between">
-            <div id="pregunta5" class="cursor-pointer">
-              Do you provide additional support?
+            <div class="flex">
+              <svg
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                class="kirk-icon sc-ksBlkl Jvfzv"
+                width="24"
+                height="24"
+                aria-hidden="true"
+              >
+                <polyline
+                  fill="none"
+                  stroke="#708C91"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="10"
+                  points="9 18 15 12 9 6"
+                ></polyline>
+              </svg>
             </div>
-            <img id="svg5" src="../images/icon-arrow-down.svg" alt="" />
           </div>
-          <div id="texto5" class="hidden">
-            <p class="text-cuarto">
-              Chat and email support is available 24/7. Phone lines are open
-              during normal business hours.
-            </p>
+          <div
+            class="flex flex-row bg-white h-auto w-auto rounded-xl p-5 my-1 justify-between items-center md:flex-1 md:mx-4"
+          >
+            <div class="flex flex-col">
+              <div class="flex">
+                <span>Barcelona</span>
+                <svg
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="kirk-icon sc-ksBlkl Jvfzv sc-bWOGAC eAUAod"
+                  width="24"
+                  height="24"
+                  aria-hidden="true"
+                >
+                  <g
+                    fill="none"
+                    stroke="#708C91"
+                    stroke-width="2"
+                    stroke-miterlimit="10"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                    transform="rotate(180 12 12)"
+                  >
+                    <path d="M9 19l-7-7 7-7"></path>
+                    <path d="M22 12H2"></path>
+                  </g>
+                </svg>
+              </div>
+              <span>Montpellier</span>
+            </div>
+            <div class="flex">
+              <svg
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                class="kirk-icon sc-ksBlkl Jvfzv"
+                width="24"
+                height="24"
+                aria-hidden="true"
+              >
+                <polyline
+                  fill="none"
+                  stroke="#708C91"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="10"
+                  points="9 18 15 12 9 6"
+                ></polyline>
+              </svg>
+            </div>
           </div>
-          <div class="h-px w-auto bg-palo my-5"></div>
+          <div
+            class="flex flex-row bg-white h-auto w-auto rounded-xl p-5 mt-1 justify-between items-center md:flex-1"
+          >
+            <div class="flex flex-col">
+              <div class="flex">
+                <span>San Sebastián</span>
+                <svg
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="kirk-icon sc-ksBlkl Jvfzv sc-bWOGAC eAUAod"
+                  width="24"
+                  height="24"
+                  aria-hidden="true"
+                >
+                  <g
+                    fill="none"
+                    stroke="#708C91"
+                    stroke-width="2"
+                    stroke-miterlimit="10"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                    transform="rotate(180 12 12)"
+                  >
+                    <path d="M9 19l-7-7 7-7"></path>
+                    <path d="M22 12H2"></path>
+                  </g>
+                </svg>
+              </div>
+              <span>París</span>
+            </div>
+            <div class="flex">
+              <svg
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                class="kirk-icon sc-ksBlkl Jvfzv"
+                width="24"
+                height="24"
+                aria-hidden="true"
+              >
+                <polyline
+                  fill="none"
+                  stroke="#708C91"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="10"
+                  points="9 18 15 12 9 6"
+                ></polyline>
+              </svg>
+            </div>
+          </div>
+        </article>
+        <div class="flex justify-end">
+          <p class="text-terceary text-sm mb-5">Ver mas</p>
+        </div>
+      </section>
+      <section
+        class="flex flex-col p-5 text-center justify-center items-center"
+      >
+        <div>
+          <p class="font-bold text-3xl my-4 text-black">
+            ¡Empieza a compartir coche!
+          </p>
+        </div>
+        <div class="bg-terceary p-4 rounded-full text-white">
+          <p>Encuentra tu viaje</p>
         </div>
         <div
           class="my-4 text-terceary p-4 rounded-full border-solid border-red border-2"
@@ -295,7 +785,7 @@
         <div class="text-center">
           <p class="mb-1 mt-10">¿Cómo compartir coche?</p>
           <p class="my-1">Seguro</p>
-          <p class="my-1">Viaja en autobús</p>
+          <p class="my-1">Viaja en autobús con BlaBlaCar</p>
           <p class="my-1">Todos los viajes en bus</p>
           <p class="my-1">Sobre nosotros</p>
           <p class="my-1">Centro de Ayuda</p>
@@ -382,12 +872,12 @@
             </g>
           </svg>
         </div>
-        <p class="text-xs mt-10"> 2022 ©</p>
+        <p class="text-xs mt-10">BlaBlaCar, 2022 ©</p>
       </section>
       <section>
         <div class="bg-sexto text-cuarto p-5 text-sm text-center">
           <p>
-             es la red de viajes basada en la comunidad líder en el
+            BlaBlaCar es la red de viajes basada en la comunidad líder en el
             mundo. Vayas donde vayas, encuentra tu viaje ideal a un precio muy
             bajo.
           </p>
@@ -396,4 +886,3 @@
     </header>
   </body>
 </html>
->>>>>>> 6a2ef2cbacfe5996b54439c1f219a581070901ef
