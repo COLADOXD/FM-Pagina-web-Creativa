@@ -3,23 +3,58 @@ module.exports = {
   content: ["./public/index.html", "./src/**/*.{html,js}"],
   theme: {
     extend: {
+      fontFamily: {
+<<<<<<< HEAD
+        Poppins: ["Overpass", "sans-serif"],
+=======
+        Poppins: ["Kumbh Sans", "sans-serif"],
+>>>>>>> dca09a3a987602d3660b8a40237b741e2dc5aa87
+      },
       textColor: (theme) => ({
         ...theme("colors"),
-        primary: "rgb(112, 140, 145)",
-        secondary: "rgb(5, 71, 82)",
-        terceary: "rgb(0, 175, 245)",
-        cuarto: "#788e95",
-      }),
 
+        primary: "hsl(14, 88%, 65%)",
+
+<<<<<<< HEAD
+        secondary: "hsl(217, 12%, 63%)",
+
+        terceary: "hsl(216, 12%, 54%)",
+
+        cuarto: "hsl(213, 19%, 18%)",
+
+        quinto: "hsl(216, 12%, 8%)",
+=======
+        secondary: "hsl(238, 29%, 16%)",
+
+        terceary: "hsl(237, 12%, 33%)",
+
+        cuarto: "hsl(240, 6%, 50%)",
+>>>>>>> dca09a3a987602d3660b8a40237b741e2dc5aa87
+      }),
       backgroundColor: (theme) => ({
         ...theme("colors"),
-        primary: "rgb(112, 140, 145)",
-        secondary: "rgb(5, 71, 82)",
-        terceary: "rgb(0, 175, 245)",
-        cuarto: "#1d4651",
-        quinto: "#ededed",
-        sexto: "#dddddd",
-        img: "url(https://cdn.blablacar.com/kairos/assets/images/carpool_only_small-09eb14eafab9352951e1..svg)",
+
+<<<<<<< HEAD
+        primary: "hsl(14, 88%, 65%)",
+
+        secondary: "hsl(217, 12%, 63%)",
+
+        terceary: "hsl(216, 12%, 54%)",
+
+        cuarto: "hsl(213, 19%, 18%)",
+
+        quinto: "hsl(216, 12%, 8%)",
+=======
+        primary: "hsl(273, 75%, 66%)",
+
+        secondary: "hsl(240, 73%, 65%)",
+
+        terceary: "hsl(34, 97%, 64%)",
+
+        cuarto: "hsl(212, 86%, 64%)",
+
+        palo: "hsl(240, 6%, 50%)",
+>>>>>>> dca09a3a987602d3660b8a40237b741e2dc5aa87
       }),
     },
   },
